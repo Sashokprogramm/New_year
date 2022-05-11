@@ -1,0 +1,138 @@
+body{
+	background: #1a5b35;
+	padding: 0;
+	margin: 0;
+	font-family: 'Comfortaa', cursive;
+
+}
+.dierfriends{
+	display: flex;
+	justify-content: center;
+	padding-top: 75px;
+    font-size: 32px;
+    font-family: 'Ms Madi', cursive;
+	color: #d1b47a;
+
+}
+.cong{
+	width: 662px;
+	height: 349px;
+	font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -92px;
+    color: #a9c1b3;
+    opacity: 1px;
+    
+
+}
+h3{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    margin-top: -15px;
+    line-height: 23px;
+}
+.mega{
+	display: flex;
+	justify-content: center;
+	padding-top: 25px;
+}
+.icon{
+	position: absolute;
+
+}
+.icon1{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.icon2 img{
+	width: 40px;
+	height: 40px;
+}
+.icon2{
+	top: 550px;
+	left: 10px;
+}
+.icon3{
+	bottom: 0;
+}
+.icon4{
+	position: absolute;
+	left: 764px;
+    top: 442px;
+}
+.icon5{
+	right: 0;
+	top: 0;
+}
+.icon6{
+	right: 0;
+	top: 0;
+}
+@media print{
+	body{
+		background-color: white;
+	}
+	.icon, .mega{
+		display: none;
+	}
+	.dierfriends, h3{
+		color: black;
+	}
+	.cong{
+		margin:0 auto;
+		color: black;
+	}
+
+}
+@media screen and (max-width:570px){
+	.icon{
+		display: none
+	}
+	.icon1 img{
+		width: 89px;
+        height: 191px;
+	}
+	.icon4{
+	    left: 274px;
+        top: 622px;
+	}
+	.icon4 img{
+	    width: 113px;
+        height: 116px;
+	}
+	.dierfriends{
+		padding-top: 40px;
+		font-size: 22px;
+		display: flex;
+		justify-content: center;
+
+	}
+	.cong{
+		width: 350px;
+		height: 450px;
+		margin: 0 auto;
+		font-size: 16px;
+		margin-top: 18px;
+
+	}
+	h3{
+		font-size: 16px;
+		margin-top: 47px;
+	}
+	.mega img{
+		width: 89px;
+        height: 34px;
+        margin-top: -25px;
+	}
+
+}
